@@ -15,20 +15,20 @@
   },
   "projects": [
     {
-      "accent": "orange",
+      "accent": "blue",
       "category": "glua",
       "demoUrl": "",
       "description": "Replace this example with a real addon, what it does, and what you implemented.",
       "downloadUrl": "",
-      "platform": "GARRY'S MOD",
-      "screenshot": "",
-      "sourceUrl": "https://github.com/",
+      "platform": "GMod",
+      "screenshot": "https://images.steamusercontent.com/ugc/6290173587180010/AFB7790B7B3D0C4558F3516CBDB255F1636E826E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3393014560",
       "tags": [
         "GLua",
         "Garry's Mod",
         "Lua"
       ],
-      "title": "GMod Gameplay Addon"
+      "title": "Smooth View Series"
     },
     {
       "accent": "blue",
