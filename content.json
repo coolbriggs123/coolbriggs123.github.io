@@ -1,17 +1,17 @@
 {
   "profile": {
-    "aboutHeading": "Curiosity is the starting point. Shipping is the goal.",
+    "aboutHeading": "Knowledge is truth, and truth is above all.",
     "aboutParagraphs": [
-      "I'm Coolbriggs123, a developer and modder who enjoys understanding how systems work and turning ideas into usable projects. I like working close to the problem: writing scripts, building tools, testing edge cases, and iterating until the result feels right.",
+      "I'm Ryley Smith, a developer and modder who enjoys understanding how systems work and turning ideas into usable projects.",
       "This portfolio highlights selected projects and experiments. Each entry should show what I built, why I built it, and what I learned."
     ],
-    "contactIntro": "For opportunities, collaboration, or questions about a project, reach out through one of the links below.",
-    "email": "replace-with-your-email@example.com",
-    "github": "https://github.com/",
-    "headline": "I build useful things for games and beyond.",
-    "intro": "I'm Coolbriggs123, a developer focused on game modifications, scripting, and practical software.",
-    "linkedin": "https://www.linkedin.com/",
-    "name": "Coolbriggs123"
+    "contactIntro": "For opportunities, collaboration, or questions about a project, reach out to my email..",
+    "email": "ryleysmith722@gmail.com",
+    "github": "https://github.com/coolbriggs123",
+    "headline": "I build fun and practical solutions for things I need.",
+    "intro": "I'm Ryley Smith, a developer focused on projects that are, more often than not, meant for personal use, then I polish them into user friendly games, mods, and applications.",
+    "linkedin": "https://www.linkedin.com/in/ryley-smith-561815329/?isSelfProfile=true",
+    "name": "Ryley Smith"
   },
   "projects": [
     {
