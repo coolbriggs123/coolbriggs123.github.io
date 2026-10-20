@@ -19,10 +19,10 @@
       "category": "glua",
       "demoUrl": "",
       "description": "A series of addons that vary drastically. The original is extremely simple, while 2 and DIY Bodycam being their own addons, due to differing uses. Each is built off the last iteration. 1>2>DIY BC. \n\nI built this due to similar mods becoming more and more deprecated, mods I frequently used, like SharpEye.\n\nThis has led me down a rabbit hole to figure out the best approach to have the most compatible and realistic camera mod possible within the Source Engine. This started my true journey of learning to code more. I eventually made ports for myself into other games, including my own games.",
-      "downloadUrl": "",
+      "downloadUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3393014560",
       "platform": "GMod",
       "screenshot": "https://images.steamusercontent.com/ugc/6290173587180010/AFB7790B7B3D0C4558F3516CBDB255F1636E826E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
-      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3393014560",
+      "sourceUrl": "",
       "tags": [
         "GLua",
         "Garry's Mod",
@@ -44,6 +44,25 @@
         "RGB automation"
       ],
       "title": "ARES"
+    },
+    {
+      "accent": "blue",
+      "category": "glua",
+      "demoUrl": "",
+      "description": "This is an attempt to copy Counter-Strike: Global Offensive as a passion project. It is a mix of CS2 and CSGO with my own twists on it to try to learn how game development can be, even without a proper engine to work on. \n\nI noticed there were, practically, no real self-made copies of CSGO on the workshop, so I wanted to challenge myself.\n\nI learned much more than I would've thought starting this process. Not only did I start getting familiar with modularization, I got heavy into trying to use other's assets to work for my version of GSGO. In the process, I began to grow stubborn on figuring out how to make my own NPC pathways, as the maps I used didn't have any navmesh or nodes. I also didn't understand NPCs can only use specific weapons, and without a proper pack for the same weapons as the players, I went with using bots instead of entities.",
+      "downloadUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3659036251",
+      "platform": "GMod Gamemode",
+      "screenshot": "https://images.steamusercontent.com/ugc/17669227078611766250/105DE113AFEFE89988C5DF3CB84569306A5FDC43/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+      "sourceUrl": "",
+      "tags": [
+        "GLua",
+        "Game Development",
+        "Garry's Mod",
+        "Lua",
+        "Bot Creation",
+        "UI creation"
+      ],
+      "title": "GSGO"
     }
   ],
   "skills": [
