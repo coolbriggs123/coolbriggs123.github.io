@@ -44,21 +44,6 @@
         "RGB automation"
       ],
       "title": "ARES"
-    },
-    {
-      "accent": "violet",
-      "category": "mods",
-      "demoUrl": "",
-      "description": "Replace this example with a released mod, compatibility notes, and installation details.",
-      "downloadUrl": "",
-      "platform": "MOD / DOWNLOAD",
-      "screenshot": "",
-      "sourceUrl": "https://github.com/",
-      "tags": [
-        "Modding",
-        "Release"
-      ],
-      "title": "Game Mod Release"
     }
   ],
   "skills": [
