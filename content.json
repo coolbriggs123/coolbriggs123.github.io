@@ -63,6 +63,22 @@
         "UI creation"
       ],
       "title": "GSGO"
+    },
+    {
+      "accent": "violet",
+      "category": "mods",
+      "demoUrl": "",
+      "description": "This effectively changes every Sandevistan item within Cyberpunk 2077. It allows this by iterating over every item, and linearly scaling each stat by it's corresponding level from 1 - 11, or in the game Tier 1 to Tier 5+. The user is able to set every variable by using the Native Settings UI, allowing their game to be as hard, balanced, or easy as they would like.\n\nThe original mod that helped me create this rewritten version only effected T5+ or T5++, which I would've preferred to work the way mine does, by scaling the rest of the items. So I made my own.\n\nI figured out that Cyberpunk 2077 uses Lua through Cyber Engine Tweaks to create anything from simple to extremely complex mods. I have always used the original, so I looked through their script as an example to learn and take away from.",
+      "downloadUrl": "https://www.nexusmods.com/cyberpunk2077/mods/35103",
+      "platform": "Cyberpunk 2077 modding",
+      "screenshot": "https://staticdelivery.nexusmods.com/mods/3333/images/headers/35103_1791762453.jpg",
+      "sourceUrl": "",
+      "tags": [
+        "Cyberpunk 2077",
+        "Cyberpunk 2077 modding",
+        "Lua"
+      ],
+      "title": "Cyberpunk 2077 - Sandy Customization Plus"
     }
   ],
   "skills": [
