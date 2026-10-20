@@ -1,0 +1,52 @@
+name: Publish portfolio content
+on:
+  push:
+    branches: [main]
+  repository_dispatch:
+    types: [portfolio_update]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate and write portfolio content
+        if: github.event_name == 'repository_dispatch'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const c = context.payload.client_payload?.content;
+            if (!c || !c.profile || !Array.isArray(c.projects) || !Array.isArray(c.skills)) throw new Error('Invalid content payload');
+            if (c.projects.length < 1 || c.projects.length > 20 || c.skills.length > 20) throw new Error('Invalid project or skill count');
+            if (Buffer.byteLength(JSON.stringify(c)) > 20000) throw new Error('Content exceeds 20 KB');
+            for (const k of ['name','headline','intro','github','linkedin','email','contactIntro','aboutHeading']) if (typeof c.profile[k] !== 'string' || !c.profile[k].trim()) throw new Error('Invalid profile field: '+k);
+            if (!/^https:\/\//i.test(c.profile.github) || !/^https:\/\//i.test(c.profile.linkedin)) throw new Error('Profile URLs must use HTTPS');
+            for (const p of c.projects) { if (!p || typeof p.title !== 'string' || !p.title.trim() || typeof p.description !== 'string' || !['glua','python','mods'].includes(p.category)) throw new Error('Invalid project'); for (const k of ['sourceUrl','demoUrl','downloadUrl','screenshot']) if (p[k] && !/^https:\/\//i.test(p[k])) throw new Error('Project URL must use HTTPS: '+k); }
+            require('fs').writeFileSync('content.json', JSON.stringify(c, null, 2) + '\n');
+      - name: Commit updated content
+        if: github.event_name == 'repository_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content.json
+          if git diff --cached --quiet; then echo "No content changes to commit"; else git commit -m "Update portfolio content via admin panel" && git push; fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

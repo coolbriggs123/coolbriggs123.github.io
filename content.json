@@ -1,0 +1,82 @@
+{
+  "profile": {
+    "name": "Coolbriggs123",
+    "headline": "I build useful things for games and beyond.",
+    "intro": "I'm Coolbriggs123, a developer focused on game modifications, scripting, and practical software.",
+    "aboutHeading": "Curiosity is the starting point. Shipping is the goal.",
+    "aboutParagraphs": [
+      "I'm Coolbriggs123, a developer and modder who enjoys understanding how systems work and turning ideas into usable projects. I like working close to the problem: writing scripts, building tools, testing edge cases, and iterating until the result feels right.",
+      "This portfolio highlights selected projects and experiments. Each entry should show what I built, why I built it, and what I learned."
+    ],
+    "contactIntro": "For opportunities, collaboration, or questions about a project, reach out through one of the links below.",
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "email": "replace-with-your-email@example.com"
+  },
+  "skills": [
+    {
+      "title": "Game scripting",
+      "items": "GLua \u00b7 Lua \u00b7 Gameplay systems \u00b7 Addon development"
+    },
+    {
+      "title": "Application development",
+      "items": "Python \u00b7 Desktop utilities \u00b7 Automation \u00b7 Prototyping"
+    },
+    {
+      "title": "Web & version control",
+      "items": "HTML \u00b7 CSS \u00b7 JavaScript \u00b7 Git \u00b7 GitHub"
+    },
+    {
+      "title": "Technical problem-solving",
+      "items": "Debugging \u00b7 Performance tuning \u00b7 Integration \u00b7 Documentation"
+    }
+  ],
+  "projects": [
+    {
+      "title": "GMod Gameplay Addon",
+      "category": "glua",
+      "platform": "GARRY'S MOD",
+      "description": "Replace this example with a real addon, what it does, and what you implemented.",
+      "tags": [
+        "GLua",
+        "Garry's Mod",
+        "Lua"
+      ],
+      "sourceUrl": "https://github.com/",
+      "demoUrl": "",
+      "downloadUrl": "",
+      "screenshot": "",
+      "accent": "orange"
+    },
+    {
+      "title": "Python Utility",
+      "category": "python",
+      "platform": "PYTHON APPLICATION",
+      "description": "Replace this example with a real Python application and the problem it solves.",
+      "tags": [
+        "Python",
+        "Automation"
+      ],
+      "sourceUrl": "https://github.com/",
+      "demoUrl": "",
+      "downloadUrl": "",
+      "screenshot": "",
+      "accent": "blue"
+    },
+    {
+      "title": "Game Mod Release",
+      "category": "mods",
+      "platform": "MOD / DOWNLOAD",
+      "description": "Replace this example with a released mod, compatibility notes, and installation details.",
+      "tags": [
+        "Modding",
+        "Release"
+      ],
+      "sourceUrl": "https://github.com/",
+      "demoUrl": "",
+      "downloadUrl": "",
+      "screenshot": "",
+      "accent": "violet"
+    }
+  ]
+}
