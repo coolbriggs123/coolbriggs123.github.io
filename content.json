@@ -18,7 +18,7 @@
       "accent": "blue",
       "category": "glua",
       "demoUrl": "",
-      "description": "Replace this example with a real addon, what it does, and what you implemented.",
+      "description": "A series of addons that vary drastically. The original is extremely simple, while 2 and DIY Bodycam being their own addons, due to differing uses. Each is built off the last iteration. 1>2>DIY BC. \n\nI built this due to similar mods becoming more and more deprecated, mods I frequently used, like SharpEye.\n\nThis has led me down a rabbit hole to figure out the best approach to have the most compatible and realistic camera mod possible within the Source Engine. This started my true journey of learning to code more. I eventually made ports for myself into other games, including my own games.",
       "downloadUrl": "",
       "platform": "GMod",
       "screenshot": "https://images.steamusercontent.com/ugc/6290173587180010/AFB7790B7B3D0C4558F3516CBDB255F1636E826E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
@@ -31,19 +31,19 @@
       "title": "Smooth View Series"
     },
     {
-      "accent": "blue",
+      "accent": "orange",
       "category": "python",
       "demoUrl": "",
-      "description": "Replace this example with a real Python application and the problem it solves.",
+      "description": "This uses an OpenRGB backend layer to provide a better and more user friendly interface for OpenRGB.\n\n A lot of apps that have the modern UIs and some essential RGB modifiers were being locked behind convoluted websites and often a hefty monthly price. I made this to remove the cost and convoluted messes big providers have.\n\nThis project let me learn a lot about using other app's APIs and Windows development, as well as Linux development recently.",
       "downloadUrl": "",
       "platform": "PYTHON APPLICATION",
-      "screenshot": "",
-      "sourceUrl": "https://github.com/",
+      "screenshot": "https://camo.githubusercontent.com/04a16681d558b758d5d9c0bab113c0725f92e04bff0ec920b40c86391d356994/68747470733a2f2f692e696d6775722e636f6d2f7a6a6d43756d6b2e706e67",
+      "sourceUrl": "https://github.com/coolbriggs123/Ares",
       "tags": [
         "Python",
-        "Automation"
+        "RGB automation"
       ],
-      "title": "Python Utility"
+      "title": "ARES"
     },
     {
       "accent": "violet",
